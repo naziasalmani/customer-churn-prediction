@@ -63,21 +63,21 @@ Exploratory Data Analysis
 
 EDA was performed to understand customer behaviour and identify patterns associated with churn.
 
-1. Churn Distribution
+### 1. Churn Distribution
 
-"Churn Distribution" (images/Churn%20Distribution.png)
+![Churn Distribution](images/Churn%20Distribution.png)
 
-2. Contract Type Analysis
+### 2. Contract Type Analysis
 
-"Contract Type" (images/Contract%20Type.png)
+![Contract Type](images/Contract%20Type.png)
 
-3. Monthly Charges Analysis
+### 3. Monthly Charges Analysis
 
-"Monthly Charges" (images/Monthly%20Charges.png)
+![Monthly Charges](images/Monthly%20Charges.png)
 
-4. Customer Tenure Analysis
+### 4. Customer Tenure Analysis
 
-"Tenure" (images/tenure.png)
+![Customer Tenure](images/tenure.png)
 
 Key observations:
 
