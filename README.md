@@ -20,8 +20,6 @@ Dataset
 
 Dataset: IBM Telco Customer Churn
 
-The dataset contains customer information, subscribed services, account details, and churn status.
-
 Attribute| Description
 Total records| 7,043
 Original columns| 21
@@ -64,6 +62,22 @@ Project Workflow
 Exploratory Data Analysis
 
 EDA was performed to understand customer behaviour and identify patterns associated with churn.
+
+1. Churn Distribution
+
+"Churn Distribution" (images/Churn%20Distribution.png)
+
+2. Contract Type Analysis
+
+"Contract Type" (images/Contract%20Type.png)
+
+3. Monthly Charges Analysis
+
+"Monthly Charges" (images/Monthly%20Charges.png)
+
+4. Customer Tenure Analysis
+
+"Tenure" (images/tenure.png)
 
 Key observations:
 
@@ -111,6 +125,8 @@ F1-Score| 57.79%
 
 Confusion Matrix
 
+"Confusion Matrix" (images/Confusion%20matrix.jpg)
+
 Actual / Predicted| Stayed (0)| Churn (1)
 Stayed (0)| 565| 470
 Churn (1)| 31| 343
@@ -124,6 +140,8 @@ Model Explainability
 Two techniques were used to understand the features influencing the model's predictions.
 
 1. Feature Importance
+
+"Feature Importance" (images/feature%20importance.png)
 
 XGBoost feature importance was extracted to identify the features the model relied on most.
 
@@ -140,6 +158,8 @@ Some of the most influential features included:
 Month-to-month contract emerged as the most influential feature in the model's feature importance analysis.
 
 2. SHAP Analysis
+
+"SHAP Summary Plot" (images/SHAP.jpg)
 
 SHAP (SHapley Additive exPlanations) was used to understand how individual features contribute to model predictions.
 
